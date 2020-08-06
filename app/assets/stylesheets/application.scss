@@ -17,6 +17,8 @@
  @import 'header';
  @import 'card';
  @import 'tabs';
+ @import 'article';
+ @import 'variables';
 
 html {
 }
@@ -24,6 +26,7 @@ html {
 body {
     background-image: url('iu-lia-ulwdcO4Pxg0-unsplash.png');
     background-size: cover;
+    min-height: 100vh;
 }
 
 .container {
@@ -35,5 +38,10 @@ body {
         clear: both;
         display: block;
     }
+}
+
+a {
+    text-decoration: none;
+    color: $text-base-color;
 }
 
