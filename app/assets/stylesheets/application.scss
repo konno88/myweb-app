@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+
+ @import 'header';
+
+html {
+}
+
+body {
+    background-image: url("andrew-santellan-JS-l3dLb8eQ-unsplash.png");
+    background-size: cover;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+
+    &.clear::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+}

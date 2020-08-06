@@ -4,12 +4,28 @@
     <title>MywebApp</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <header class="header">
+      <div class="container clear">
+        <div class="header_items">
+          <div class="header_left">
+            <h2 class="header_title">GO_channel</h2>
+          </div>
+          <div class="header_right">
+            <ul class="header_list">
+              <li class="header_list_item">投稿する</li>
+              <li class="header_list_item">投稿内容一覧</li>
+              <li class="header_list_item">ログイン</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
     <%= yield %>
   </body>
 </html>
