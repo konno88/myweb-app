@@ -1,5 +1,8 @@
 class ArticlesController < ApplicationController
     def home
-        @title = 'デイトラ'
+    end
+
+    def index
+        @articles = Article.all
     end
 end

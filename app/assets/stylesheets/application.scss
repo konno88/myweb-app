@@ -15,12 +15,14 @@
  */
 
  @import 'header';
+ @import 'card';
+ @import 'tabs';
 
 html {
 }
 
 body {
-    background-image: url("andrew-santellan-JS-l3dLb8eQ-unsplash.png");
+    background-image: url('iu-lia-ulwdcO4Pxg0-unsplash.png');
     background-size: cover;
 }
 
@@ -34,3 +36,4 @@ body {
         display: block;
     }
 }
+
