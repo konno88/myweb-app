@@ -4,15 +4,25 @@
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     overflow: auto;
+    background-color:rgba(192, 192, 192, 0.4);
+    margin-bottom: 20px;
 
     &_left {
         float: left;
     }
 
-    &_list li {
+    &_list {
+
+        &_item {
+        color: white;
         float: right;
         margin-left: 20px;
         list-style: none;
         padding-top: 23px;
+        text-decoration: none;
+        cursor: pointer;
+        }
+
+
     }
 }
